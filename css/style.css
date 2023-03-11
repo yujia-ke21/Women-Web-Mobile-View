@@ -205,3 +205,21 @@ button{
     border:none;
     font-size: 16px;
 }
+
+/*Add the media query here.  For mobile view: use min-width instead of max-width. Mobile-first*/
+
+@media screen and (min-width: 800px){
+    nav{
+      padding-top: 35px;
+      /* Requirement 10 code here -- Do not remove this comment. */
+  
+      text-align:right
+  
+    }
+  
+    nav li{
+      margin-left: 5%;
+      margin-right:0;
+    }
+  
+  }
